@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle>Latihan Markup</tittle>
+        <link rel= stylesheet href=style.CSS /> 
+        <link rel="stylesheet" href="bjqs.css" />
+        <link rel="stylesheet" href="demo.css" />
+        <script src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/bjqs-1.3.min.js"></script>
+        
+    </head>
+
+    <body>
+        <div id="wrapper">
+                 <div id="banner-fade">
+
+        <!-- start Basic Jquery Slider -->
+        <ul class="bjqs">
+          <li><img src="img/thepanturas.jpg" title="Automatically generated caption"></li>
+          <li><img src="img/thejeblogs.jpg" title="Automatically generated caption"></li>
+          <li><img src="img/thesigit.jpg" title="Automatically generated caption"></li>
+        </ul>
+        <!-- end Basic jQuery Slider -->
+
+      </div>
+      <!-- End outer wrapper -->
+
+      <script class="secret-source">
+        jQuery(document).ready(function($) {
+
+          $('#banner-fade').bjqs({
+            height      : 320,
+            width       : 620,
+            responsive  : true
+          });
+
+        });
+      </script>
+            <div id=header>  
+            
+
+                   <ul id="menu-utama"> 
+                        <li><a href="">home</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">contact</a></li>
+                   </ul>
+                   <form>
+                        <input type="text" name="search />"
+                   </form>
+                   </div>
+            </div>
+ <div id="daftar-artikel">
+        <div class="artikel">
+               <img src= "panturas.jpg" alt= "Gambar" Artikel /> 
+               <h1>The Panturas</h1> 
+               <b>Feb 12, 2025</b><b>Views : 80,487,497</b>
+               <p>The Panturas adalah band surf rock kontemporer asal Jatinangor, Jawa Barat, yang dibentuk pada 2015-2016 oleh Abyan Nabilio (vokal/gitar), Rizal Taufik (gitar), Bagus Patria (bass),
+                 dan Surya Fikri (drum). Dikenal dengan nuansa musik pesisir meski berasal dari dataran tinggi, mereka terinspirasi oleh band surf rock klasik seperti The Ventures. </p> 
+               <a href="" >Watch This</a>
+        </div>
+        <div class=artikel> 
+            <img src= "jeblogs.jpg" alt= "Gambar" Artikel />
+            <h1>The Jeblogs</h1> 
+            <b>Feb 12, 2025</b><b>Views : 25,900,427</b>
+            <p>The Jeblogs adalah band rock alternatif asal Klaten, Jawa Tengah, yang terbentuk pada 2016 dari perkumpulan pemuda [Karang Taruna Galur Manggala, Desa Jeblog. Didirikan untuk memeriahkan acara 17 Agustus, band ini berawal dari empat anggota: Amir M (vokal)
+                Valentino Mahoni (gitar), Dani Ardian (drum), dan Ryan Ramadhan (bass), yang kini berkembang menjadi kuartet dengan tambahan gitaris.</p>
+            <a href="" >Watch This</a>
+        </div>
+        <div class=artikel> 
+            <img src= "sigit.jpg" alt= "Gambar" Artikel />
+            <h1>The Sigit</h1> 
+            <b>Feb 12, 2025</b><b>Views : 85,480,997</b>
+            <p>The S.I.G.I.T (The Super Insurgent Group of Intemperance Talent) adalah band hard rock/garage rock asal Bandung yang terbentuk sekitar tahun 1997-2002. Berawal dari nongkrong bareng saat SMA,
+                mereka terinspirasi musik 70-an, merilis EP pada 2004, dan dikenal dengan lagu-lagu orisinal yang bertenaga</p> 
+            <a href="" >Watch This</a>
+        </div>
+</div>
+
+    <div id=sidebar>
+        <h2>Who we are?</h2> 
+        <p>band.net pengetahuan band</p>
+
+        <h2>Artikel berdasarkan kategori</h2>
+        <ul> 
+            <li><a href="" >HTML dan CSS</a></li>
+            <li><a href="" >Javascript</a></li> 
+            <li><a href="" >Photoshop</a></li> 
+            <li><a href="" >Inspirasi</a></li>
+            <li><a href="" >Berita</a></li>
+            <li><a href="" >Off Topic</a></li>
+        </ul>
+        </div><!-- "Penutup div sidebar" -->
+        <div id="footer"> 
+            <p>band.net</p>
+        </div>
+    </div><!-- Penutup div wrapper -->
+    </body>
+</html>
